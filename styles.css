@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"); /* to import the font family from google fonts*/
+* {
+  box-sizing: border-box; /*  I have to search for it*/
+}
+body {
+  font-family: "poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+header {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 500px;
+}
+h1 {
+  font-weight: 200;
+}
+h1 span {
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1,
+h2 {
+  color: hsl(234, 12%, 34%);
+}
+.box {
+  background-color: #fff;
+  padding: 30px;
+  width: 350px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+.box-push {
+  transform: translateY(50%);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-top: 30px;
+}
+.sub {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.tb {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.kar {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.cal {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+p {
+  color: hsl(229, 6%, 66%);
+}
+.box p {
+  font-size: 15px;
+}
